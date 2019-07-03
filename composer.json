@@ -1,0 +1,20 @@
+{
+  "name": "wulilele/zizaiyou",
+  "description": "zizaiyou restful api",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wulilele",
+      "email": "1181200882@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "wulilele\\zizaiyou\\": "src/zizaiyou"
+    }
+  },
+  "require": {
+    "ext-curl": "*"
+  }
+}
